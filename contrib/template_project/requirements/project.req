@@ -7,6 +7,6 @@ Description: Link Pulse Deconfliction Server Updates
 Rationale: LPD process is currently done manually, and is being updated.
 Status: not done
 Priority: development:10
-Effort estimation: 10
+Effort estimation: 9
 Topic: Initiative
 Solved by: req
