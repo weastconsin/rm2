@@ -3,8 +3,8 @@ Type: design decision
 Invented on: 2010-02-06
 Invented by: IPT
 Owner: development
-Description: Link Pulse Deconfliction Server
-Rationale: LPD process is currently done manually, and will benefit from automation.
+Description: Link Pulse Deconfliction Server Updates
+Rationale: LPD process is currently done manually, and is being updated.
 Status: not done
 Priority: development:10
 Effort estimation: 10
