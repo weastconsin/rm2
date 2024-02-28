@@ -12,9 +12,6 @@ VERSION = '25.0.1'
 
 ADD_DATA = []
 
-with open("Readme.rst", "r") as fh:
-    long_description = fh.read()
-
 for dadi, destpath_prefix in [('contrib', 'rmtoo')]:
     for (path, dirs, files) in os.walk(dadi):
         if path.endswith("__pycache__"):
