@@ -7,5 +7,5 @@ Description: Link Pulse Deconfliction Server
 Rationale: LPD process is currently done manually, and will benefit from automation.
 Status: not done
 Priority: development:10
-Effort estimation: 10
+Effort estimation: 8
 Topic: Initiative
