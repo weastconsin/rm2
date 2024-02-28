@@ -19,7 +19,7 @@ class TxtIOConfig(object):
     """Hold configuration for TextIO class"""
 
     def __init__(self, config=None, type_str=""):
-        self.__max_line_length = 80
+        self.__max_line_length = 100000
         if config is not None:
             self.__init_overwrite(config, type_str)
 
