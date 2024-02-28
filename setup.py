@@ -45,7 +45,7 @@ ADD_DATA.append(
       "Readme-Hacking.txt", "Readme-OS-X.txt", "Readme-Overview.txt",
       "Readme-RmtooOnRmtoo.txt", "Readme-Windows.txt",
       "requirements.txt", "RequirementVsConstraint.txt", "RMTEx.txt",
-      "Roadmap.txt", "Readme.rst",
+      "Roadmap.txt",
       "contrib/vmsetup/Readme-PreinstalledVM.rst",
       "contrib/vmsetup/Readme-PreinstalledVMGui.rst"]))
 
@@ -77,8 +77,6 @@ def adjust(input_filename, output):
 
 setup(name=PACKAGE, version=VERSION,
       description='Free and OpenSource Requirements Management Tool',
-      long_description=long_description,
-      long_description_content_type='text/x-rst',
       keywords='requirements management',
       author='Andreas Florath',
       author_email='rmtoo@florath.net',
