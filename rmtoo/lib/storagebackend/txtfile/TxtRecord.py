@@ -80,7 +80,7 @@ class TxtRecord(Record):
             lineno += 1
             if len(line) > max_line_length:
                 logger.error(LogFormatter.format(
-                    100000, "line too long: is [%d], "
+                    10000, "line too long: is [%d], "
                     "max allowed [%d]" % (len(line), max_line_length),
                     rid, lineno))
                 self._set_not_usable()
