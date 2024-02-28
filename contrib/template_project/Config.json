@@ -17,7 +17,7 @@
             "directory": "requirements"
         }, 
         "inventors": [
-            "flonatel"
+            "IPT"
         ], 
         "stakeholders": [
             "development", 
@@ -31,11 +31,12 @@
 	    "sources": [
 	        [
 		    "filesystem", {
-		        "requirements_dirs": [ "requirements" ],
-			"topics_dirs": [ "topics" ],
-			"topic_root_node": "ReqsDocument",
-			"constraints_dirs": [ "constraints" ],
-			"testcases_dirs": [ "testcases" ] }
+                "requirements_dirs": [ "requirements" ],
+                "topics_dirs": [ "topics" ],
+                "topic_root_node": "ReqsDocument",
+                "constraints_dirs": [ "constraints" ],
+                "testcases_dirs": [ "testcases" ] 
+            }
 		] 
 	    ],
             "output": {
